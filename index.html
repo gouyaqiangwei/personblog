@@ -19,6 +19,8 @@
 
 		<link rel="icon" href="/favicon.png">
 
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
 		<link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
 
 		<link rel="stylesheet" href="css/style.css">
@@ -40,18 +42,26 @@
 					</div>
 					<div id="header-inner" class="inner">
 						<nav id="main-nav">
-							<a id="main-nav-toggle" class="nav-icon"></a>
+							<!-- <a id="main-nav-toggle" class="nav-icon"></a> -->
 
-							<a class="main-nav-link" href="/">个人主页</a>
+							<a class="main-nav-link" href="/">首页</a>
 
-							<a class="main-nav-link" href="/archives">个人资料</a>
+							<a class="main-nav-link" href="/">关于</a>
+
+              <a class="main-nav-link" href="/">成长</a>
+
+              <a class="main-nav-link" href="/">学习</a>
+
+              <a class="main-nav-link" href="/">娱乐</a>
+
+              <a class="main-nav-link" href="/">留言</a>
 
 						</nav>
 						<nav id="sub-nav">
-
+<!-- 
 							<a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
 
-							<a id="nav-search-btn" class="nav-icon" title="Search"></a>
+							<a id="nav-search-btn" class="nav-icon" title="Search"></a> -->
 						</nav>
 						<div id="search-form-wrap">
 							<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -64,35 +74,48 @@
 
 					<article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
 						<div class="article-meta">
-							<a href="/2018/11/09/hello-world/" class="article-date">
+							<!-- <a href="/2018/11/09/hello-world/" class="article-date">
 								<time datetime="2018-11-09T07:25:17.146Z" itemprop="datePublished">2018-11-09</time>
-							</a>
+							</a> -->
 
 						</div>
 						<div class="article-inner">
 
-							<header class="article-header">
+							<!-- <header class="article-header">
 
-								<h1 itemprop="name">
-      <a class="article-title" href="/2018/11/09/hello-world/">你好</a>
-    </h1>
+								<h1 itemprop="name" style="">
+                    <a class="article-title" href="/">朋友，好久不见！</a>
+                </h1>
 
-							</header>
+							</header> -->
 
 							<div class="article-entry" itemprop="articleBody">
-
-								<p>欢迎
+                <p>
+                   在无数个睡不着的晚上，我相信会有很多人，习惯性的开始闭上眼睛，安静的想念一个人，想念一张脸。而在他们心里，能够有这样一个人可以想念，或许就够了。
+                </p>
+               <!-- <button type="button" class="btn btn-primary">（首选项）Primary</button> -->
+								<!-- <p>欢迎
 									<a href="https://hexo.io/" target="_blank" rel="noopener">X先生</a>!这是你的
 									<a href="https://hexo.io/docs/" target="_blank" rel="noopener">文档</a> 更多信息。如果在使用Hexo时遇到任何问题，你可以找到答案。
 									<a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">故障排除</a> 或者你可以问我
-									<a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-								<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>快速开始</h2>
+									<a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p> -->
+								<!-- <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>快速开始</h2> -->
+ <!--
 								<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>创建新岗位</h3>
 								<figure class="highlight bash">
 									<table>
 										<tr>
 											<td class="gutter"><pre><span class="line">1</span><br></pre></td>
-											<td class="code"><pre><span class="line">$ hexo new  是的法师 <span class="string">"My New Post"收到</span></span><br></pre></td>
+											<td class="code">
+                        <pre>
+                            <span class="line">
+                              第一条信息
+                              <span class="string">
+                                这是内容区域
+                              </span>
+                            </span><br>
+                        </pre>
+                      </td>
 										</tr>
 									</table>
 								</figure>
@@ -100,7 +123,7 @@
 									<a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing是add</a>
 								</p>
 								<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server萨达</h3>
-								<figure class="highlight bash">
+							 <figure class="highlight bash">
 									<table>
 										<tr>
 											<td class="gutter"><pre><span class="line">1</span><br></pre></td>
@@ -123,6 +146,7 @@
 								<p>More info:ad撒旦法
 									<a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating阿阿斯顿法师</a>
 								</p>
+
 								<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>萨达Deploy to remote sites</h3>
 								<figure class="highlight bash">
 									<table>
@@ -131,10 +155,10 @@
 											<td class="code"><pre><span class="line">阿萨德$ hexo deploy</span><br></pre></td>
 										</tr>
 									</table>
-								</figure>
-								<p>More info:萨达
-									<a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">啊啊所多Deployment</a>
-								</p>
+								</figure> -->
+								<!-- <p>More info:
+									<a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a>
+								</p> -->
 
 							</div>
 							<footer class="article-footer">
@@ -150,23 +174,23 @@
 				<aside id="sidebar">
 
 					<div class="widget-wrap">
-						<h3 class="widget-title">Archives萨达</h3>
+						<h3 class="widget-title">个人简历</h3>
 						<div class="widget">
 							<ul class="archive-list">
 								<li class="archive-list-item">
-									<a class="archive-list-link" href="/archives/2018/11/">萨达November 2018</a>
+									<a class="archive-list-link" href="/">简历内容</a>
 								</li>
 							</ul>
 						</div>
 					</div>
 
 					<div class="widget-wrap">
-						<h3 class="widget-title">阿萨德Recent Posts</h3>
+						<h3 class="widget-title">联系方式</h3>
 						<div class="widget">
 							<ul>
 
 								<li>
-									<a href="/2018/11/09/hello-world/">萨达Hello World</a>
+									<a href="/">邮箱： 1037425668@qq.com</a>
 								</li>
 
 							</ul>
@@ -176,24 +200,24 @@
 				</aside>
 
 			</div>
-			<footer id="footer">
+			<footer id="footer" style="height: 50px;padding: 30px">
 
 				<div class="outer">
 					<div id="footer-info" class="inner">
-						&copy; 2018 John Doe萨达<br> Powered by萨达
-						<a href="http://hexo.io/" target="_blank">Hexo阿萨德</a>
+						&copy; 2018 chuanchaun<br>
+						<!-- <a href="http://hexo.io/" target="_blank">Hexo阿萨德</a> -->
 					</div>
 				</div>
 			</footer>
 		</div>
-		<nav id="mobile-nav">
+	<!-- 	<nav id="mobile-nav">
 
 			<a href="/" class="mobile-nav-link">Home阿萨德</a>
 
 			<a href="/archives" class="mobile-nav-link">Archives阿萨德</a>
 
 		</nav>
-
+ -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 		<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
