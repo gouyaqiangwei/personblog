@@ -1,0 +1,65 @@
+.layui-bg-green {
+    background-color: #1b3d3a !important;
+}
+.lione{
+  margin-left: 100px !important;
+}
+.layui-bg-green li{
+  margin-left: 50px;     
+}
+.layui-side{
+  background-color: #8643;
+}
+
+.layui-body{
+  left: 300px;
+  background-color: #8642;
+
+}
+.liinput{
+  margin-left: 250px !important;
+}
+.layui-icon-search{
+   cursor:pointer
+}
+.layui-carousel img{
+  width: 100%;
+  height: 100%;
+}
+.start{
+  width: 100%;
+  height: 280px;
+  margin:0 auto;
+}
+.layui-side{
+  width: 300px !important;
+}
+.layui-layout-admin .layui-footer{
+  left: 300px;
+}
+.layui-timeline-item::before, hr {
+    background-color: #ab9c9c;
+}
+.layui-timeline{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.second{
+  /*background-color: green;*/
+  width: 80%;
+  height: 500px;
+  margin-top: 50px !important;
+  margin: 0 auto;
+}
+.second-one{
+  width: 50%;
+  height: 100%;
+  /*background-color: yellow;*/
+}
+.second-two{
+  float: right;
+  margin-top: -500px;
+  width: 50%;
+  height: 100%;
+  /*background-color: red;*/
+}
